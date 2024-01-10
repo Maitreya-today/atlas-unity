@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 24
-  productGUID: 09bb5ec33aed58c4d8f7eff66a19e456
+  productGUID: b683bb661008b184fbd571d5a08f4e68
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: unity_ar_business_card
+  productName: ar card
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -615,7 +615,23 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: GLTFAST;READY_PLAYER_ME
+    EmbeddedLinux: GLTFAST;READY_PLAYER_ME
+    GameCoreScarlett: GLTFAST;READY_PLAYER_ME
+    GameCoreXboxOne: GLTFAST;READY_PLAYER_ME
+    LinuxHeadlessSimulation: GLTFAST;READY_PLAYER_ME
+    Lumin: GLTFAST;READY_PLAYER_ME
+    Nintendo Switch: GLTFAST;READY_PLAYER_ME
+    PS4: GLTFAST;READY_PLAYER_ME
+    PS5: GLTFAST;READY_PLAYER_ME
+    Stadia: GLTFAST;READY_PLAYER_ME
+    Standalone: GLTFAST;READY_PLAYER_ME
+    WebGL: GLTFAST;READY_PLAYER_ME
+    Windows Store Apps: GLTFAST;READY_PLAYER_ME
+    XboxOne: GLTFAST;READY_PLAYER_ME
+    iPhone: GLTFAST;READY_PLAYER_ME
+    tvOS: GLTFAST;READY_PLAYER_ME
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -719,10 +735,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 2a4ee771-08aa-4c1d-a34c-9a176bd55f01
+  cloudProjectId: 2ea5634d-2784-42fe-b968-0df2663a59af
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: unity_ar_business_card 2024-01-03_03-51-18
+  projectName: ar card
   organizationId: clintiscrazy
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
