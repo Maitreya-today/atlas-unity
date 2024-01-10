@@ -11,6 +11,6 @@ public class LinkManager : MonoBehaviour
 
     public void OpenEmail()
     {
-        Application.OpenURL("lessismoreclint@gmail.com");
+        Application.OpenURL("mailto:lessismoreclint@gmail.com");
     }
 }
