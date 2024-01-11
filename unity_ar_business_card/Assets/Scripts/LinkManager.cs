@@ -13,4 +13,14 @@ public class LinkManager : MonoBehaviour
     {
         Application.OpenURL("mailto:lessismoreclint@gmail.com");
     }
+
+    public void OpenFaceBook()
+    {
+        Application.OpenURL("https://www.facebook.com/profile.php?id=61555141275827");
+    }
+
+    public void OpenGitHub()
+    {
+        Application.OpenURL("https://github.com/Maitreya-today");
+    }
 }
